@@ -168,6 +168,15 @@ footer {
     justify-content: center;
 }
 
+.container h1,
+.container section h2,
+.container section p,
+.about h1,
+.about p {
+  font-size: 16px;
+}
+
+
 @media (max-width: 700px) {
     .column {
         flex: 100%;
@@ -205,3 +214,14 @@ footer {
 
   
 }
+
+@media (max-width: 700px) {
+    .container h1,
+    .container section h2,
+    .container section p,
+    .about h1,
+    .about p {
+      font-size: 14px;
+    }
+  }
+  
