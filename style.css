@@ -132,16 +132,20 @@ a {
 }
 body {
     margin: 0;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     min-height: 100vh;
 }
 
-.greeting{
+.greeting {
     text-align: center;
 }
 
-main {
+.video {
+    display: flex;
+    justify-content: center;
+}
+.main {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -150,24 +154,28 @@ main {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    height: fit-content;
+    width: 100%;
     background-color: rgb(217, 176, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    /* Ajusta la altura del footer según tus necesidades */
-    background-color: #f2f2f2;
+    flex-direction: column;
+}
+.button-home {
+    justify-content: center;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .column {
         flex: 100%;
     }
 
     .nav-links {
         display: flex;
-        align-items: ce;
+        align-items: center;
     }
 
     .button-menu-toggle {
@@ -195,4 +203,5 @@ footer {
         font-size: 40px;
     }
 
+  
 }
