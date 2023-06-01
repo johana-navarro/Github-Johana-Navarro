@@ -69,12 +69,6 @@ a {
     height: auto;
 }
 
-.names {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 88px;
-}
 
 .container-services {
     text-align: left;
@@ -130,6 +124,28 @@ a {
 .container-contact-text{
     margin: 10px;
 }
+
+.redes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .container h1,
+    .container section h2,
+    .container section p,
+    .about h1,
+    .about p {
+        font-size: 14px;
+    }
+}
+
+
 body {
     margin: 0;
     /*display: flex;*/
