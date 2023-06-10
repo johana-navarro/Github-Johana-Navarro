@@ -172,3 +172,11 @@ footer {
 .button-home {
     justify-content: center;
 }
+
+/*imagenes responsive*/
+@media (max-width: 768px) {
+    .image-gallery img {
+      width: 100%;
+
+    }
+  }
