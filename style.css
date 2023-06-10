@@ -1,12 +1,4 @@
-.box {
-    background-color: rgb(255, 188, 188);
-    width: 300px;
-    height: 150px;
-    padding: 10px;
-    border: 15px solid;
-    margin: 80px;
-}
-
+/* Estilos para la barra de navegación */
 .container-nav {
     display: flex;
     padding: 10px;
@@ -25,7 +17,7 @@
     align-items: center;
 }
 
-li>a {
+li > a {
     padding: 8px 24px;
 }
 
@@ -47,6 +39,7 @@ a {
     display: none;
 }
 
+/* Estilos para la sección "About" */
 .about h1 {
     text-align: center;
 }
@@ -69,7 +62,7 @@ a {
     height: auto;
 }
 
-
+/* Estilos para la sección "Services" */
 .container-services {
     text-align: left;
     margin: 20px;
@@ -88,10 +81,9 @@ a {
 
 .container-services ul li {
     margin-bottom: 10px;
-
 }
 
-
+/* Estilos para la sección "Home" */
 .container {
     display: flex;
     padding-top: 20px;
@@ -103,7 +95,6 @@ a {
 
 .container h1 {
     width: 100%;
-
 }
 
 .container section {
@@ -112,6 +103,12 @@ a {
     box-sizing: border-box;
 }
 
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para la sección "Contact" */
 .container-contact {
     margin: 20px;
 }
@@ -121,7 +118,7 @@ a {
     margin: 0;
 }
 
-.container-contact-text{
+.container-contact-text {
     margin: 10px;
 }
 
@@ -135,6 +132,7 @@ a {
     margin-bottom: 10px;
 }
 
+/* Estilos generales */
 @media (max-width: 700px) {
     .container h1,
     .container section h2,
@@ -145,22 +143,12 @@ a {
     }
 }
 
-
 body {
     margin: 0;
-    /*display: flex;*/
     flex-direction: column;
     min-height: 100vh;
 }
 
-.greeting {
-    text-align: center;
-}
-
-.video {
-    display: flex;
-    justify-content: center;
-}
 .main {
     flex: 1;
     display: flex;
@@ -180,64 +168,7 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+
 .button-home {
     justify-content: center;
 }
-
-.container h1,
-.container section h2,
-.container section p,
-.about h1,
-.about p {
-  font-size: 16px;
-}
-
-
-@media (max-width: 700px) {
-    .column {
-        flex: 100%;
-    }
-
-    .nav-links {
-        display: flex;
-        align-items: center;
-    }
-
-    .button-menu-toggle {
-        display: block;
-        background-color: white;
-        border: none;
-        border-radius: 50px;
-        padding: 0 24px;
-        font-family: monospace;
-        font-weight: bold;
-        font-size: 20px;
-    }
-
-    .nav-links.nav-links-responsive {
-        position: absolute;
-        display: flex;
-        background-color: black;
-        width: 100%;
-        height: 100%;
-        top: 50px;
-        left: 0;
-        flex-direction: column;
-        align-items: center;
-        gap: 70px;
-        font-size: 40px;
-    }
-
-  
-}
-
-@media (max-width: 700px) {
-    .container h1,
-    .container section h2,
-    .container section p,
-    .about h1,
-    .about p {
-      font-size: 14px;
-    }
-  }
-  
